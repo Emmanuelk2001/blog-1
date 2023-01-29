@@ -25,7 +25,6 @@
                     <p>About us</p>
                 </a>
                 <a href="src/Connexion-Inscription/index.html"><button> Sign in </button></a>
-                <!-- <a href="src/Connexion-Inscription/index2.html"><button> Sign up</button></a> -->
 
             </div>
 

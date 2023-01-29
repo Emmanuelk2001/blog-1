@@ -1,18 +1,10 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
-=======
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oswald:wght@300;400&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
->>>>>>> VersionMatt
 
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     color: rgb(0, 0, 0);
     list-style: none;
-<<<<<<< HEAD
-    background-color: rgb(93, 125, 161);
-=======
->>>>>>> VersionMatt
 }
 
 body header a {
@@ -20,14 +12,6 @@ body header a {
 }
 
 /*------------------------------------------------------HEADER--------------------------------------------------------------------------------------*/
-<<<<<<< HEAD
-header {}
-
-/*----------------------------nav---------------------------*/
-header nav {
-    padding: 20px 3% 20px 3%;
-    /* background-color: rgb(0, 32, 69); */
-=======
 header {
     background: #ffffff;
 }
@@ -36,7 +20,6 @@ header {
 header nav {
     padding: 30px 3% 30px 3%;
     background-color: rgb(0, 32, 69);
->>>>>>> VersionMatt
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -46,11 +29,7 @@ header nav {
 }
 
 header nav button {
-<<<<<<< HEAD
-    margin-left: 5px;
-=======
     margin-left: 10px;
->>>>>>> VersionMatt
 }
 
 header nav p,
@@ -67,19 +46,11 @@ header nav span {
 
 header nav span:hover {
     border-bottom: 3px solid #E74C3C;
-<<<<<<< HEAD
-    cursor: pointer;
-=======
->>>>>>> VersionMatt
 }
 
 header nav h1 {
     margin: 0;
-<<<<<<< HEAD
-    font-size: 1.5em;
-=======
     font-size: 1.5vw;
->>>>>>> VersionMatt
 
 }
 
@@ -113,24 +84,12 @@ header nav .right p:hover {
 }
 
 header nav .right button {
-<<<<<<< HEAD
-    padding: 7px 15px;
-    font-size: 15px;
-    font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    border: none;
-    background-color: inherit;
-    color: #fff;
-    border-radius: 15px;
-=======
     padding: 5px 15px;
     font-size: 14px;
     border: 1px solid #E74C3C;
     background-color: inherit;
     color: #E74C3C;
     border-radius: 8px;
->>>>>>> VersionMatt
     transition: color 0.5s, background-color 0.5s;
 }
 
@@ -141,10 +100,6 @@ header nav .right button:hover {
     top: -2px;
 }
 
-<<<<<<< HEAD
-/*-----------------------------------------------------END-HEADER--------------------------------------------------------------------------------------*/
-=======
->>>>>>> VersionMatt
 .presentation {
     padding: 20px 5%;
     margin-top: 5%;
@@ -161,12 +116,7 @@ header nav .right button:hover {
 .presentation .abstract-presentation h1 {
     color: #000;
     margin: 0;
-<<<<<<< HEAD
-    font-size: 4.5em;
-    font-weight: 700;
-=======
     font-size: 4vw;
->>>>>>> VersionMatt
     width: 90%;
 }
 
@@ -204,10 +154,6 @@ header nav .right button:hover {
 
 .container .socials {
     display: flex;
-<<<<<<< HEAD
-=======
-
->>>>>>> VersionMatt
     justify-content: center;
     list-style: none;
 }
@@ -223,16 +169,6 @@ header nav .right button:hover {
 
 .container .socials li a i {
     font-size: 20px;
-<<<<<<< HEAD
-    padding: 5px;
-
-}
-
-.socials a:hover i {
-    color: #E74C3C;
-    position: relative;
-    top: -5px;
-=======
 }
 
 .socials a:hover i {
@@ -279,5 +215,4 @@ header nav .right button:hover {
         padding: 5px 5px;
     }
 
->>>>>>> VersionMatt
 }
