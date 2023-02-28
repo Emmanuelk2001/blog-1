@@ -18,7 +18,8 @@
         <nav>
             <h1><a href="index.html"><span>My</span><span>.</span>blog</h1>
             <div class="right">
-                <ul>
+
+                <ul id="new_menu">
                     <li><a href="Blogs.html" class="link">Blogs</a></li>
                     <li><a href="#" class="link">Contacts</a></li>
                     <li><a href="#" class="link">About us</a></li>
@@ -26,15 +27,18 @@
                         <a href="#"> <img src="images/user5.jpg" class="user-profil" onclick="open_menu()"></a>
                         <div class="menu-user" id="menu-user">
                             <ul>
-                                <li><a href="#">Dashbord</a> </li>
-                                <li><a href="#">Logout</a></li>
+                                <li><a href="dashbord.html"><i class="fa fa-user"></i>Dashbord</a> </li>
+                                <li><a href="#"><i class="fa fa-right-from-bracket"></i>Logout</a></li>
                             </ul>
                         </div>
                     </li>
                     <h5>M@tt_sic90</h5>
                     <!-- <li><a href="inscription.html" class="btn">Sign up</a></li>
                     <li><a href="connexion.html" class="btn">Sign in</a></li> -->
+                    <li><i class="fa-solid fa-xmark" onclick="close_newMenu()"></i></li>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="open_newMenu()"></i>
+
             </div>
         </nav>
     </header>
@@ -200,14 +204,7 @@
     </footer>
 
 
-    <script>
-        let menu_user = document.getElementById("menu-user");
-
-        function open_menu() {
-            menu_user.classList.toggle("open-menu");
-        }
-
-    </script>
+    <script src="index.js"></script>
 </body>
 
 </html>
