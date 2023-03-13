@@ -1,8 +1,12 @@
 <?php
 function connexion_database(){
-    $database = mysqli_connect("localhost","root","");
-    if (!$database){
-        die("Eurreur : ".mysqli_connect_error());
-    }
+    try {
+    	$database = new PDO('mysql:host=localhost;dbname=myblog;charset=utf8', 'root', '');
+        return $database;
+	} catch(Exception $e) {
+    	die('Erreur : '.$e->getMessage());
+	}
+   
+   
 }
-?>
+

@@ -5,40 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <h1><a href="index.html"><span>My</span><span>.</span></a>blog</h1>
-            <div class="right">
-
-                <ul id="new_menu">
-                    <li><a href="Blogs.html" class="link">Blogs</a></li>
-                    <li><a href="#" class="link">Contacts</a></li>
-                    <li><a href="#" class="link">About us</a></li>
-                    <li>
-                        <a href="#"> <img src="images/user5.jpg" class="user-profil" onclick="open_menu()"></a>
-                        <div class="menu-user" id="menu-user">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-user"></i>Dashbord</a> </li>
-                                <li><a href="#"><i class="fa fa-right-from-bracket"></i>Logout</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <h5>M@tt_sic90</h5>
-                    <!-- <li><a href="inscription.html" class="btn">Sign up</a></li>
-                    <li><a href="connexion.html" class="btn">Sign in</a></li> -->
-                    <li><i class="fa-solid fa-xmark" onclick="close_newMenu()"></i></li>
-                </ul>
-                <i class="fa-solid fa-bars" onclick="open_newMenu()"></i>
-
-            </div>
-        </nav>
-    </header>
+    <!-- !-->
+    <?php require_once('header_session.php');?>
 
     <div class="panneau-control">
         <div class="menu-nav">
@@ -69,7 +43,6 @@
                         <td><span class="modif">Modifier</span></td>
                         <td><span class="Supp">Supprimer</span></td>
                     </tr>
-
                     <tr>
                         <td>Similtudes d'evolution technologique</td>
                         <td>Technologie</td>
@@ -83,7 +56,7 @@
             <div class="add-post active-link" id="add-post">
                 <h2>Ajouter un post</h2>
                 <form>
-                    <input type="text" id="e-mail" name="e-mail" placeholder="Nom de l'article">
+                    <input type="text" id="text" name="text" placeholder="Nom de l'article">
                     <select name="" id="select">
                         <option value="1">Technologie</option>
                         <option value="2">Sciences</option>
@@ -91,7 +64,8 @@
                         <option value="4">JavaScript</option>
                     </select>
 
-                    <input type="text" id="contain-article" name="contain-article" placeholder="Contenu de l'article">
+                     <textarea>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, praesentium quos sunt commodi quod mollitia sit 
+                        eius amet tempore nulla, voluptatum accusantium magni culpa laborum consectetur cupiditate placeat perspiciatis provident! </textarea>
                     <input type="checkbox" name="Publish" id="">
                     <label for="Status"
                         style="font-size: 0.8rem; margin: 5px; color: #fff;opacity: 0.7;">Publish</label>
@@ -108,6 +82,6 @@
 
 </body>
 
-<script src="src/Pages_Web/index.js"></script>
+<script src="Pages_Web/index.js"></script>
 
 </html>
